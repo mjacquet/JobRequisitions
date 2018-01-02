@@ -1,0 +1,9 @@
+{
+    "orgName": "AG2RLM",
+    "edition": "Developer",
+    "language":"fr",
+    "country":"FR",
+    "orgPreferences" : {
+        "enabled": ["S1DesktopEnabled"]
+    }
+}
