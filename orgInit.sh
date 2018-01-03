@@ -1,1 +1,1 @@
-sfdx force:source:push -u <SOUSERNAME>
+sfdx force:source:push
