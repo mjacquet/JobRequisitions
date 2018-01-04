@@ -1,0 +1,59 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Job_Requisition__c",
+                "referenceId": "Job_Requisition__cRef1"
+            },
+            "location__c": "Rennes",
+            "Name": "Responsable RH Rennes",
+            "Open_Date__c": "2017-12-20",
+            "Status__c": "Closed",
+            "Travel_Required__c": false
+        },
+        {
+            "attributes": {
+                "type": "Job_Requisition__c",
+                "referenceId": "Job_Requisition__cRef2"
+            },
+            "location__c": "Nantes",
+            "Name": "Conseiller Centre de Contact Junior",
+            "Open_Date__c": "2018-02-28",
+            "Status__c": "Needs Approval",
+            "Travel_Required__c": false
+        },
+        {
+            "attributes": {
+                "type": "Job_Requisition__c",
+                "referenceId": "Job_Requisition__cRef3"
+            },
+            "location__c": "Nantes",
+            "Name": "Conseiller Centre de Contact Senior",
+            "Open_Date__c": "2018-02-28",
+            "Status__c": "Open",
+            "Travel_Required__c": false
+        },
+        {
+            "attributes": {
+                "type": "Job_Requisition__c",
+                "referenceId": "Job_Requisition__cRef4"
+            },
+            "location__c": "Montpellier",
+            "Name": "Responsable RH Montpellier",
+            "Open_Date__c": "2018-01-31",
+            "Status__c": "Open - approved",
+            "Travel_Required__c": false
+        },
+        {
+            "attributes": {
+                "type": "Job_Requisition__c",
+                "referenceId": "Job_Requisition__cRef5"
+            },
+            "location__c": "Nantes",
+            "Name": "Agent commercial Grand Ouest",
+            "Open_Date__c": "2018-02-28",
+            "Status__c": "Open",
+            "Travel_Required__c": true
+        }
+    ]
+}

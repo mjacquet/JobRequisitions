@@ -1,0 +1,78 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Applicant__c",
+                "referenceId": "Applicant__cRef1"
+            },
+            "email__c": "jdupuis@fakemail.com",
+            "Job_Requisition__c": "@Job_Requisition__cRef1",
+            "Name__c": "Jean Dupuis",
+            "Status__c": "Hired"
+        },
+        {
+            "attributes": {
+                "type": "Applicant__c",
+                "referenceId": "Applicant__cRef2"
+            },
+            "email__c": "adupont@fakemail.com",
+            "Job_Requisition__c": "@Job_Requisition__cRef1",
+            "Mobile_Phone__c": "0687654321",
+            "Name__c": "Anne Dupont",
+            "Status__c": "Rejected"
+        },
+        {
+            "attributes": {
+                "type": "Applicant__c",
+                "referenceId": "Applicant__cRef3"
+            },
+            "email__c": "jdurand@fakemail.com",
+            "Job_Requisition__c": "@Job_Requisition__cRef4",
+            "Mobile_Phone__c": "0687654321",
+            "Name__c": "Julie Durand",
+            "Status__c": "Schedule Interview"
+        },
+        {
+            "attributes": {
+                "type": "Applicant__c",
+                "referenceId": "Applicant__cRef4"
+            },
+            "email__c": "dupont@fakemail.com",
+            "Job_Requisition__c": "@Job_Requisition__cRef4",
+            "Mobile_Phone__c": "0687654321",
+            "Name__c": "Jean dupont",
+            "Status__c": "New"
+        },
+        {
+            "attributes": {
+                "type": "Applicant__c",
+                "referenceId": "Applicant__cRef5"
+            },
+            "email__c": "jdubois@fakemail.com",
+            "Job_Requisition__c": "@Job_Requisition__cRef4",
+            "Name__c": "Jaqueline Dubois",
+            "Status__c": "Schedule Interview"
+        },
+        {
+            "attributes": {
+                "type": "Applicant__c",
+                "referenceId": "Applicant__cRef6"
+            },
+            "email__c": "pdupont@fakemail.com",
+            "Job_Requisition__c": "@Job_Requisition__cRef5",
+            "Mobile_Phone__c": "0607080905",
+            "Name__c": "Pierre Dupont",
+            "Status__c": "New"
+        },
+        {
+            "attributes": {
+                "type": "Applicant__c",
+                "referenceId": "Applicant__cRef7"
+            },
+            "email__c": "pdubois@fakemail.com",
+            "Job_Requisition__c": "@Job_Requisition__cRef5",
+            "Name__c": "Paul Dubois",
+            "Status__c": "New"
+        }
+    ]
+}

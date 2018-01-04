@@ -1,0 +1,6 @@
+SELECT location__c,Name,Open_Date__c,Status__c,Travel_Required__c,(SELECT email__c,Job_Requisition__c,Mobile_Phone__c,Name__c,Resume__c,Status__c FROM Applicants__r) FROM Job_Requisition__c
+
+
+sfdx force:data:tree:export --query "SELECT location__c,Name,Open_Date__c,Status__c,Travel_Required__c,(SELECT email__c,Job_Requisition__c,Mobile_Phone__c,Name__c,Resume__c,Status__c FROM Applicants__r) FROM Job_Requisition__c" --outputdir data --plan
+
+sfdx force:data:tree:import --plan data/Job_Requisition__c-Applicant__c-plan.json
