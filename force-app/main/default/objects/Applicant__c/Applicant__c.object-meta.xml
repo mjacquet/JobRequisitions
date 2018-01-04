@@ -46,7 +46,7 @@
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableChangeDataCapture>false</enableChangeDataCapture>
-    <enableFeeds>true</enableFeeds>
+    <enableFeeds>false</enableFeeds>
     <enableHistory>true</enableHistory>
     <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
@@ -63,25 +63,6 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Postulants</pluralLabel>
-    <searchLayouts>
-        <customTabListAdditionalFields>Name__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Job_Requisition__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>HR_Contact__c</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>Name__c</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Job_Requisition__c</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Status__c</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>HR_Contact__c</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Mobile_Phone__c</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Name__c</lookupPhoneDialogsAdditionalFields>
-        <searchFilterFields>Job_Requisition__c</searchFilterFields>
-        <searchResultsAdditionalFields>Name__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Job_Requisition__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>HR_Contact__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>email__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Mobile_Phone__c</searchResultsAdditionalFields>
-    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <startsWith>Vowel</startsWith>
     <visibility>Public</visibility>

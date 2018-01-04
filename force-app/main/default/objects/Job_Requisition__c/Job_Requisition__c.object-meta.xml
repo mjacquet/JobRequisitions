@@ -46,7 +46,7 @@
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableChangeDataCapture>false</enableChangeDataCapture>
-    <enableFeeds>true</enableFeeds>
+    <enableFeeds>false</enableFeeds>
     <enableHistory>true</enableHistory>
     <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
@@ -62,25 +62,6 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Postes</pluralLabel>
-    <searchLayouts>
-        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Hiring_Manager__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Open_Date__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>location__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Travel_Required__c</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>Status__c</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Hiring_Manager__c</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Open_Date__c</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>location__c</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Travel_Required__c</lookupDialogsAdditionalFields>
-        <searchFilterFields>location__c</searchFilterFields>
-        <searchFilterFields>Travel_Required__c</searchFilterFields>
-        <searchFilterFields>Hiring_Manager__c</searchFilterFields>
-        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Hiring_Manager__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Open_Date__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>location__c</searchResultsAdditionalFields>
-    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
