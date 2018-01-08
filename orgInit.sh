@@ -1,1 +1,1 @@
-sfdx force:source:status
+sfdx force:source:push
