@@ -176,6 +176,10 @@
         <tab>Job_Requisition__c</tab>
         <visibility>Visible</visibility>
     </tabSettings>
+    <tabSettings>
+        <tab>public_Jobs__x</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
     <userPermissions>
         <enabled>true</enabled>
         <name>CreateCustomizeReports</name>
