@@ -51,6 +51,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Job_Requisition__c.Poste_r_f_rentiel__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Job_Requisition__c.Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
