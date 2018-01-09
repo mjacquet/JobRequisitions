@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ASCII_name__c</fullName>
+    <externalId>false</externalId>
+    <label>Nom ASCII</label>
+    <length>120000</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <unique>false</unique>
+    <visibleLines>12</visibleLines>
+</CustomField>
