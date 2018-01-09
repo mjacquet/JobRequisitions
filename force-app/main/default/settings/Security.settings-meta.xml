@@ -37,6 +37,6 @@
         <requireHttpOnly>false</requireHttpOnly>
         <requireHttps>true</requireHttps>
         <securityCentralKillSession>true</securityCentralKillSession>
-        <sessionTimeout>TwentyFourHours</sessionTimeout>
+        <sessionTimeout>TwoHours</sessionTimeout>
     </sessionSettings>
 </SecuritySettings>
