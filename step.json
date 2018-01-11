@@ -1,6 +1,6 @@
 {
     "title":"Etape 1: Création de l'organisation de développement",
-    "body":"Nous allons simplement créer une \"Scratch Org\", qui est un environnement de développement éphémère.<br>Celle-ci nous permettra de réaliser nos configurations, mais également de voir comment Salesforce DX permet le développement collaboratif, l'intégration continue, et le déploiement continue.",
+    "body":"Nous allons simplement créer une 'Scratch Org', qui est un environnement de développement éphémère.<br>Celle-ci nous permettra de réaliser nos configurations, mais également de voir comment Salesforce DX permet le développement collaboratif, l'intégration continue, et le déploiement continue.",
     "button":"Créer l'org"
 }
 
