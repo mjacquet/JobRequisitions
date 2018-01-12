@@ -1,13 +1,12 @@
 {
     "steps":[
-        "0",
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "8",
-        "9"
+        "Etape 1: Création de l'organisation de développement",
+        "Etape 2: Création du modèle de donnée",
+        "Etape 3: Import des données",
+        "Etape 4: Interface utilisateur",
+        "Etape 5: Automatisation",
+        "Etape 6: Rapports",
+        "Etape 7: Mobilité",
+        "Etape 8: Intégration",
+        "Etape 9: Développement"
 ]}
