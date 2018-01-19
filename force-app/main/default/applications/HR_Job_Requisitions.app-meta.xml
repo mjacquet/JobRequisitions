@@ -4,7 +4,7 @@
         <headerColor>#0070D2</headerColor>
     </brand>
     <formFactors>Large</formFactors>
-    <label>R H - Gestion Embauches</label>
+    <label>HR - Job Requisitions</label>
     <navType>Standard</navType>
     <tab>standard-Feed</tab>
     <tab>Job_Requisition__c</tab>

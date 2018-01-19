@@ -31,20 +31,20 @@
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Poste_r_f_rentiel_Page_d_enregistrement</content>
+        <content>Job_Master_Record_Page</content>
         <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
     </actionOverrides>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>public$Jobs</description>
+    <description>public$Jobs_en</description>
     <enableChangeDataCapture>false</enableChangeDataCapture>
     <enableFeeds>true</enableFeeds>
     <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
     <externalDataSource>RH</externalDataSource>
-    <externalName>public$Jobs</externalName>
-    <label>Poste (référentiel)</label>
-    <pluralLabel>Postes (référentiel)</pluralLabel>
+    <externalName>public$Jobs_en</externalName>
+    <label>Job Master</label>
+    <pluralLabel>Jobs Master</pluralLabel>
     <searchLayouts/>
 </CustomObject>

@@ -4,7 +4,7 @@
         <customLabel>true</customLabel>
         <detailHeading>false</detailHeading>
         <editHeading>false</editHeading>
-        <label>Champs</label>
+        <label>Fields</label>
         <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
@@ -47,7 +47,7 @@
         <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
-        <label>Salaire</label>
+        <label>Salary</label>
         <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
@@ -78,7 +78,7 @@
         <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
-        <label>Description du Poste</label>
+        <label>Job Description</label>
         <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
@@ -91,7 +91,7 @@
         <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
         <editHeading>false</editHeading>
-        <label>Liens Personnalisés</label>
+        <label>Custom Links</label>
         <layoutColumns/>
         <layoutColumns/>
         <layoutColumns/>
@@ -104,7 +104,7 @@
         <fields>Open_Date__c</fields>
         <fields>location__c</fields>
         <fields>Travel_Required__c</fields>
-        <relatedList>Job_Requisition__c.Poste_r_f_rentiel__c</relatedList>
+        <relatedList>Job_Requisition__c.Job_Master__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>

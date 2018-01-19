@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
-        <application>RH_Gestion_Embauches</application>
+        <application>HR_Job_Requisitions</application>
         <visible>true</visible>
     </applicationVisibilities>
     <fieldPermissions>
@@ -71,76 +71,76 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>public_Jobs__x.Code__c</field>
+        <field>public_Jobs_en__x.Code__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>public_Jobs__x.Cycle_de_paiement__c</field>
+        <field>public_Jobs_en__x.Compensation_Frequency__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>public_Jobs__x.Departement__c</field>
+        <field>public_Jobs_en__x.Departement__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>public_Jobs__x.Description__c</field>
+        <field>public_Jobs_en__x.Description__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>public_Jobs__x.Devise__c</field>
+        <field>public_Jobs_en__x.Currency__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>public_Jobs__x.Famille__c</field>
+        <field>public_Jobs_en__x.Job_Family__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>public_Jobs__x.Grade__c</field>
+        <field>public_Jobs_en__x.Grade_Level__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>public_Jobs__x.Salaire_Max__c</field>
+        <field>public_Jobs_en__x.Maximum_Salary__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>public_Jobs__x.Salaire_Median__c</field>
+        <field>public_Jobs_en__x.Mid_Point_Salary__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>public_Jobs__x.Salaire_Min__c</field>
+        <field>public_Jobs_en__x.Minimum_Salary__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>public_Jobs__x.Statut__c</field>
+        <field>public_Jobs_en__x.Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>public_Jobs__x.Titre__c</field>
+        <field>public_Jobs_en__x.Job_Title__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>public_Jobs__x.Type__c</field>
+        <field>public_Jobs_en__x.Job_Category__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>public_Jobs__x.id__c</field>
+        <field>public_Jobs_en__x.id__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
-    <label>Gestion des embauches</label>
+    <label>Job Requisitions</label>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -165,7 +165,7 @@
         <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
-        <object>public_Jobs__x</object>
+        <object>public_Jobs_en__x</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <tabSettings>
@@ -177,7 +177,7 @@
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>
-        <tab>public_Jobs__x</tab>
+        <tab>public_Jobs_en__x</tab>
         <visibility>Visible</visibility>
     </tabSettings>
     <userPermissions>

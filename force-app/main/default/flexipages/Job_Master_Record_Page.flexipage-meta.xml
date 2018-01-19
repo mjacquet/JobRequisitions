@@ -79,9 +79,9 @@
         <name>sidebar</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>Poste (référentiel) Page d'enregistrement</masterLabel>
+    <masterLabel>Job Master Record Page</masterLabel>
     <parentFlexiPage>flexipage__default_rec_L</parentFlexiPage>
-    <sobjectType>public_Jobs__x</sobjectType>
+    <sobjectType>public_Jobs_en__x</sobjectType>
     <template>
         <name>flexipage:recordHomeTemplateDesktop</name>
     </template>
