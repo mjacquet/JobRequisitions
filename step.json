@@ -1,0 +1,5 @@
+{
+	"title": "Step 1: Creating a Scratch Org",
+	"body": "We are going to create a new 'Scratch Org', which is an ephemeral dev environnement.<br>We will use it to creare our app, but also to experience how Salesforce DX allows collaboratoive development, Continuous Integration and Continous Deployment.",
+	"button": "Create Scratch Org"
+}
