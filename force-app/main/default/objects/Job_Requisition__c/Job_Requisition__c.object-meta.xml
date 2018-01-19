@@ -39,7 +39,7 @@
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Poste_Page_d_enregistrement</content>
+        <content>Job_Requisition_Record_Page</content>
         <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
@@ -57,15 +57,14 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ReadWrite</externalSharingModel>
-    <gender>Masculine</gender>
-    <label>Poste</label>
+    <label>Job Requisition</label>
     <nameField>
-        <label>Nom du poste</label>
+        <label>Job Requisition Name</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Postes</pluralLabel>
+    <pluralLabel>Job Requisitions</pluralLabel>
     <searchLayouts>
         <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
         <customTabListAdditionalFields>Hiring_Manager__c</customTabListAdditionalFields>
