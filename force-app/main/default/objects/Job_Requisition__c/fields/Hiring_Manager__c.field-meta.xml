@@ -3,7 +3,7 @@
     <fullName>Hiring_Manager__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Responsable du poste</label>
+    <label>Hiring Manager</label>
     <referenceTo>User</referenceTo>
     <relationshipName>Job_Requisitions</relationshipName>
     <required>false</required>

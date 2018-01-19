@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
-        <application>RH_Gestion_Embauches</application>
+        <application>HR_Job_Requisitions</application>
         <visible>true</visible>
     </applicationVisibilities>
     <fieldPermissions>
@@ -65,7 +65,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
-    <label>Gestion des embauches</label>
+    <label>Job Requisitions</label>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>

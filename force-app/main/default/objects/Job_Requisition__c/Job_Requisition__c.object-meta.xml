@@ -54,14 +54,14 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ReadWrite</externalSharingModel>
     <gender>Masculine</gender>
-    <label>Poste</label>
+    <label>Job Requisition</label>
     <nameField>
-        <label>Nom du poste</label>
+        <label>Job Requisition Name</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Postes</pluralLabel>
+    <pluralLabel>Job Requisitions</pluralLabel>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

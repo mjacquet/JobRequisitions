@@ -3,7 +3,7 @@
     <fullName>HR_Contact__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Contact RH</label>
+    <label>HR Contact</label>
     <referenceTo>User</referenceTo>
     <relationshipName>Applicants</relationshipName>
     <required>false</required>
