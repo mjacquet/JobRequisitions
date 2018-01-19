@@ -28,7 +28,7 @@
         <field>Applicant__c.Status__c</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
-    <name>Postulants par poste et par statut</name>
+    <name>Applicant by Job Requisition and by status</name>
     <params>
         <name>co</name>
         <value>1</value>

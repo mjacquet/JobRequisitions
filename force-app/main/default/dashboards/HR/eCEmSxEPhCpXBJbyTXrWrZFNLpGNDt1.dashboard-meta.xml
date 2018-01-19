@@ -20,9 +20,9 @@
                 <enableHover>false</enableHover>
                 <expandOthers>true</expandOthers>
                 <groupingColumn>FK_$Job_Requisition__c.Status__c</groupingColumn>
-                <header>Postes par type</header>
+                <header>Job Requisitions by type</header>
                 <legendPosition>Right</legendPosition>
-                <report>unfiled$public/Postulants_par_poste_et_par_statut_wt</report>
+                <report>unfiled$public/Applicant_by_Job_Requisition_and_by_status_wt</report>
                 <showPercentage>true</showPercentage>
                 <showTotal>false</showTotal>
                 <showValues>false</showValues>
@@ -49,9 +49,9 @@
                 <expandOthers>false</expandOthers>
                 <groupingColumn>FK_NAME</groupingColumn>
                 <groupingColumn>Applicant__c.Status__c</groupingColumn>
-                <header>Postulants par poste et par statut</header>
+                <header>Applicants by Job Requisitions and by status</header>
                 <legendPosition>Right</legendPosition>
-                <report>unfiled$public/Postulants_par_poste_et_par_statut_wt</report>
+                <report>unfiled$public/Applicant_by_Job_Requisition_and_by_status_wt</report>
                 <showPercentage>false</showPercentage>
                 <showValues>false</showValues>
                 <sortBy>RowValueDescending</sortBy>
@@ -63,11 +63,10 @@
         <numberOfColumns>9</numberOfColumns>
         <rowHeight>80</rowHeight>
     </dashboardGridLayout>
-    <dashboardType>SpecifiedUser</dashboardType>
+    <dashboardType>LoggedInUser</dashboardType>
     <isGridLayout>true</isGridLayout>
-    <runningUser>test-bfiixwkrpxl3@ag2rlm.net</runningUser>
     <textColor>#000000</textColor>
-    <title>Postes et postulants</title>
+    <title>Job Requisitions and Applicants</title>
     <titleColor>#000000</titleColor>
     <titleSize>12</titleSize>
 </Dashboard>
