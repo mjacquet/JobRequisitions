@@ -1,8 +1,8 @@
 {
-    "orgName": "AG2RLM",
+    "orgName": "PlatformDay",
     "edition": "Developer",
-    "language":"fr",
-    "country":"FR",
+    "language":"en",
+    "country":"US",
     "orgPreferences" : {
         "enabled": ["S1DesktopEnabled"]
     }

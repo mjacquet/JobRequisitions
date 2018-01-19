@@ -1,12 +1,12 @@
 {
     "steps":[
-        "Etape 1: Création de l'organisation de développement",
-        "Etape 2: Création du modèle de donnée",
-        "Etape 3: Import des données",
-        "Etape 4: Interface utilisateur",
-        "Etape 5: Automatisation",
-        "Etape 6: Rapports",
-        "Etape 7: Mobilité",
-        "Etape 8: Intégration",
-        "Etape 9: Développement"
+        "Step 1: Creating the scratch Org",
+        "Step 2: Creating the data model",
+        "Step 3: Imporing data",
+        "Step 4: User Interface customization",
+        "Step 5: Automation",
+        "Step 6: Reports and dashboards",
+        "Step 7: Mobility",
+        "Step 8: Integration",
+        "Step 9: Custom Development"
 ]}
