@@ -22,7 +22,7 @@
                 <groupingColumn>FK_$Job_Requisition__c.Status__c</groupingColumn>
                 <header>Job Requisitions by type</header>
                 <legendPosition>Right</legendPosition>
-                <report>unfiled$public/Applicant_by_Job_Requisition_and_by_status_wt</report>
+                <report>unfiled$public/Applicant_by_Job_and_by_status_wt</report>
                 <showPercentage>true</showPercentage>
                 <showTotal>false</showTotal>
                 <showValues>false</showValues>
@@ -51,7 +51,7 @@
                 <groupingColumn>Applicant__c.Status__c</groupingColumn>
                 <header>Applicants by Job Requisitions and by status</header>
                 <legendPosition>Right</legendPosition>
-                <report>unfiled$public/Applicant_by_Job_Requisition_and_by_status_wt</report>
+                <report>unfiled$public/Applicant_by_Job_and_by_status_wt</report>
                 <showPercentage>false</showPercentage>
                 <showValues>false</showValues>
                 <sortBy>RowValueDescending</sortBy>
