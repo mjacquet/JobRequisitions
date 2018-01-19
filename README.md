@@ -1,14 +1,5 @@
-# SFDX  App
+# SFDX  Platform Day App
 
-## Dev, Build and Test
-
-
-## Resources
-
-
-## Description of Files and Directories
-
-
-## Issues
+A sample app meant to be deployed step by step using https://github.com/mjacquet/deploy-to-sfdx
 
 
