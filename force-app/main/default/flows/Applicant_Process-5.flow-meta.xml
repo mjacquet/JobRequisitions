@@ -4,11 +4,11 @@
         <processMetadataValues>
             <name>textJson</name>
             <value>
-                <stringValue>{"mentions":[],"message":"Nouveau postulant à contacter.\nNom: {![Applicant__c].Name__c}\nPoste: {![Applicant__c].Job_Requisition__c.Name}\n@[{![Applicant__c].HR_Contact__c}] "}</stringValue>
+                <stringValue>{"mentions":[],"message":"A new applicant should be contacted.\nName: {![Applicant__c].Name__c}\nJob requisition: /[{![Applicant__c].Job_Requisition__c.Name}]\n@[{![Applicant__c].HR_Contact__c}] "}</stringValue>
             </value>
         </processMetadataValues>
         <name>myRule_1_A1</name>
-        <label>Notifier contact RH</label>
+        <label>Notify HR contact</label>
         <locationX>100</locationX>
         <locationY>200</locationY>
         <actionName>chatterPost</actionName>
@@ -16,9 +16,9 @@
         <inputParameters>
             <name>text</name>
             <value>
-                <stringValue>Nouveau postulant à contacter.
-Nom: {!myVariable_current.Name__c}
-Poste: {!myVariable_current.Job_Requisition__r.Name}
+                <stringValue>A new applicant should be contacted.
+Name: {!myVariable_current.Name__c}
+Job requisition: /[{!myVariable_current.Job_Requisition__r.Name}]
 @[{!myVariable_current.HR_Contact__c}] </stringValue>
             </value>
         </inputParameters>
@@ -42,7 +42,7 @@ Poste: {!myVariable_current.Job_Requisition__r.Name}
         <processMetadataValues>
             <name>textJson</name>
             <value>
-                <stringValue>{"mentions":[],"message":"Merci de planifier un entretien avec {![Applicant__c].Name__c} pour le poste {![Applicant__c].Job_Requisition__c.Name}.\n\nContacts:\nEmail: {![Applicant__c].email__c}\nMobile: {![Applicant__c].Mobile_Phone__c}"}</stringValue>
+                <stringValue>{"mentions":[],"message":"Please plan an interview with {![Applicant__c].Name__c} for the job requisition {![Applicant__c].Job_Requisition__c.Name}.\n\nContacts:\nEmail: {![Applicant__c].email__c}\nMobile: {![Applicant__c].Mobile_Phone__c}"}</stringValue>
             </value>
         </processMetadataValues>
         <name>myRule_3_A1</name>
@@ -54,7 +54,7 @@ Poste: {!myVariable_current.Job_Requisition__r.Name}
         <inputParameters>
             <name>text</name>
             <value>
-                <stringValue>Merci de planifier un entretien avec {!myVariable_current.Name__c} pour le poste {!myVariable_current.Job_Requisition__r.Name}.
+                <stringValue>Please plan an interview with {!myVariable_current.Name__c} for the job requisition {!myVariable_current.Job_Requisition__r.Name}.
 
 Contacts:
 Email: {!myVariable_current.email__c}
@@ -210,7 +210,7 @@ Mobile: {!myVariable_current.Mobile_Phone__c}</stringValue>
             <connector>
                 <targetReference>myRule_1_A1</targetReference>
             </connector>
-            <label>Nouveau postulant?</label>
+            <label>New applicant?</label>
         </rules>
     </decisions>
     <decisions>
@@ -262,7 +262,7 @@ Mobile: {!myVariable_current.Mobile_Phone__c}</stringValue>
             <connector>
                 <targetReference>myRule_3_pmetdec</targetReference>
             </connector>
-            <label>Planifier entretien?</label>
+            <label>Plan Interview?</label>
         </rules>
     </decisions>
     <decisions>
@@ -326,8 +326,8 @@ Mobile: {!myVariable_current.Mobile_Phone__c}</stringValue>
             <label>Previously Met - Prev</label>
         </rules>
     </decisions>
-    <interviewLabel>Processus_Postulant-1_InterviewLabel</interviewLabel>
-    <label>Processus Postulant</label>
+    <interviewLabel>Applicant_Process-5_InterviewLabel</interviewLabel>
+    <label>Applicant Process</label>
     <processMetadataValues>
         <name>ObjectType</name>
         <value>
