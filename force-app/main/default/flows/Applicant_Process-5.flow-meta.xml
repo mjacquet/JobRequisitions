@@ -46,7 +46,7 @@ Job requisition: /[{!myVariable_current.Job_Requisition__r.Name}]
             </value>
         </processMetadataValues>
         <name>myRule_3_A1</name>
-        <label>Notifier</label>
+        <label>Notify</label>
         <locationX>300</locationX>
         <locationY>200</locationY>
         <actionName>chatterPost</actionName>
