@@ -10,7 +10,7 @@ jres.CommunityNickname = 'Lauren';
 jres.LocaleSidKey = 'fr_FR_EURO';
 jres.TimeZoneSidKey = 'Europe/Paris';
 jres.ProfileID = p.id;
-jres.LanguageLocaleKey = 'en';
+jres.LanguageLocaleKey = 'en_US';
 jres.EmailEncodingKey = 'ISO-8859-1';
 insert jres;
 User jHR = new user();
@@ -23,7 +23,7 @@ jHR.CommunityNickname = 'John';
 jHR.LocaleSidKey = 'fr_FR_EURO';
 jHR.TimeZoneSidKey = 'Europe/Paris';
 jHR.ProfileID = p.id;
-jHR.LanguageLocaleKey = 'en';
+jHR.LanguageLocaleKey = 'en_US';
 jHR.EmailEncodingKey = 'ISO-8859-1';
 insert jHR;
 
