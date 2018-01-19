@@ -10,23 +10,23 @@
     
     <lightning:card class="slds-card__body_inner">
         <aura:set attribute="title">
-            Documents nécessaires
+            Mandatory Documents
         </aura:set>   
         <lightning:layout horizontalAlign="center" verticalAlign="center" multipleRows="false" class="slds-grid_vertical">   
             <lightning:layoutItem padding="around-small" flexibility="grow">
                 <h3 class="slds-section__title" >
-                    <span class="slds-truncate slds-p-horizontal_small" title="CV"> CV</span>
+                    <span class="slds-truncate slds-p-horizontal_small" title="CV"> Resume</span>
                 </h3>
             </lightning:layoutItem>
             <lightning:layoutItem flexibility="grow">
                 <aura:if isTrue="{!v.request.Doc_resume__c == null || v.request.Doc_resume__c == ''}">
-                    <lightning:fileUpload label="Charger le CV du postulant" 
+                    <lightning:fileUpload label="Upload Applicant Resume" 
                                           multiple="false" 
                                           accept=".pdf, .doc, .docx, .jpg, .png"
                                           recordId="{!v.recordId}" 
                                           onuploadfinished="{!c.handleResume}" />   
                     <aura:set attribute="else">
-                        <lightning:fileCard fileId="{!v.request.Doc_resume__c}">CV</lightning:fileCard> 
+                        <lightning:fileCard fileId="{!v.request.Doc_resume__c}">Resume</lightning:fileCard> 
                     </aura:set>   
                 </aura:if>
             </lightning:layoutItem>
