@@ -24,7 +24,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Poste_r_f_rentiel__c</field>
+                <field>Job_Master__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

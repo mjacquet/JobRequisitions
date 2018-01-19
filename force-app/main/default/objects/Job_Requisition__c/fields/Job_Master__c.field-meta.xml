@@ -4,7 +4,7 @@
     <externalId>false</externalId>
     <label>Job Master</label>
     <length>128</length>
-    <referenceTo>public_Jobs__x</referenceTo>
+    <referenceTo>public_Jobs_en__x</referenceTo>
     <relationshipLabel>Jobs</relationshipLabel>
     <relationshipName>Jobs</relationshipName>
     <trackFeedHistory>false</trackFeedHistory>
