@@ -1,5 +1,5 @@
 {
-	"title": "Etape 1: Création de l'organisation de développement",
-	"body": "Nous allons simplement créer une 'Scratch Org', qui est un environnement de développement éphémère.<br>Celle-ci nous permettra de réaliser nos configurations, mais également de voir comment Salesforce DX permet le développement collaboratif, l'intégration continue, et le déploiement continue.",
-	"button": "Créer l'org"
+	"title": "Step 1: Creating a Scratch Org",
+	"body": "We are going to create a new 'Scratch Org', which is an ephemeral dev environnement.<br>We will use it to creare our app, but also to experience how Salesforce DX allows collaboratoive development, Continuous Integration and Continous Deployment.",
+	"button": "Create Scratch Org"
 }
