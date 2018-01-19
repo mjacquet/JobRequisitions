@@ -24,7 +24,7 @@
             <componentInstanceProperties>
                 <name>label</name>
                 <type>decorator</type>
-                <value>Éléments récents</value>
+                <value>Recent Items</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>maxRecords</name>
@@ -48,7 +48,7 @@
         <name>utilityItems</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>R H - Gestion Embauches UtilityBar</masterLabel>
+    <masterLabel>HR - Job Requisitions UtilityBar</masterLabel>
     <template>
         <name>one:utilityBarTemplateDesktop</name>
     </template>
