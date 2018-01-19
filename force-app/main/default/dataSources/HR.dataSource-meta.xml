@@ -3,7 +3,7 @@
     <customConfiguration>{"inlineCountEnabled":"true","requestCompression":"false","pagination":"CLIENT","noIdMapping":"false","format":"JSON","compatibility":"DEFAULT","timeout":"120","searchEnabled":"true"}</customConfiguration>
     <endpoint>https://odata-eu.heroku.com/odata/v4/4135c18dc7854af8b2a833086e24c6c0/</endpoint>
     <isWritable>false</isWritable>
-    <label>Référentiel RH</label>
+    <label>HR System</label>
     <principalType>NamedUser</principalType>
     <protocol>Password</protocol>
     <type>OData4</type>

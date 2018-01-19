@@ -91,7 +91,7 @@
         <componentInstances>
             <componentInstanceProperties>
                 <name>active</name>
-                <value>false</value>
+                <value>true</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>body</name>
@@ -104,10 +104,6 @@
             <componentName>flexipage:tab</componentName>
         </componentInstances>
         <componentInstances>
-            <componentInstanceProperties>
-                <name>active</name>
-                <value>true</value>
-            </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>body</name>
                 <value>feedTabContent</value>
@@ -124,6 +120,9 @@
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
+            <componentName>DocumentUpload</componentName>
+        </componentInstances>
+        <componentInstances>
             <componentInstanceProperties>
                 <name>tabs</name>
                 <value>sidebartabs</value>
@@ -134,9 +133,9 @@
         <name>sidebar</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>Poste Page d'enregistrement</masterLabel>
+    <masterLabel>Applicant Record Page</masterLabel>
     <parentFlexiPage>flexipage__default_rec_L</parentFlexiPage>
-    <sobjectType>Job_Requisition__c</sobjectType>
+    <sobjectType>Applicant__c</sobjectType>
     <template>
         <name>flexipage:recordHomeTemplateDesktop</name>
     </template>

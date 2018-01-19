@@ -4,14 +4,14 @@
         <headerColor>#0070D2</headerColor>
     </brand>
     <formFactors>Large</formFactors>
-    <label>R H - Gestion Embauches</label>
+    <label>HR - Job Requisitions</label>
     <navType>Standard</navType>
     <tab>standard-Feed</tab>
     <tab>Job_Requisition__c</tab>
     <tab>Applicant__c</tab>
-    <tab>public_Jobs__x</tab>
+    <tab>public_Jobs_en__x</tab>
     <tab>standard-report</tab>
     <tab>standard-Dashboard</tab>
     <uiType>Lightning</uiType>
-    <utilityBar>R_H_Gestion_Embauches_UtilityBar</utilityBar>
+    <utilityBar>HR_Job_Requisitions_UtilityBar</utilityBar>
 </CustomApplication>
