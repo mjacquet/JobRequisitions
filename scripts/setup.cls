@@ -1,35 +1,35 @@
 Profile p=[select id from profile where Name='Company Communities User'];
 
 User jres = new user();
-jres.firstName = 'Julie';
-jres.LastName = 'Responsable';
-jres.Email = 'jres@ag2rlm.co';
-jres.Alias = 'Julie';
-jres.Username = 'julie@'+UserInfo.getOrganizationId()+'.com';
-jres.CommunityNickname = 'Julie';
+jres.firstName = 'Lauren';
+jres.LastName = 'Manager';
+jres.Email = 'lm@platform.day';
+jres.Alias = 'Lauren';
+jres.Username = 'Lauren@'+UserInfo.getOrganizationId()+'.com';
+jres.CommunityNickname = 'Lauren';
 jres.LocaleSidKey = 'fr_FR_EURO';
 jres.TimeZoneSidKey = 'Europe/Paris';
 jres.ProfileID = p.id;
-jres.LanguageLocaleKey = 'fr';
+jres.LanguageLocaleKey = 'en';
 jres.EmailEncodingKey = 'ISO-8859-1';
 insert jres;
-User jrh = new user();
-jrh.firstName = 'Jean';
-jrh.LastName = 'RH';
-jrh.Email = 'jrh@ag2rlm.co';
-jrh.Alias = 'Jean';
-jrh.Username = 'jean@'+UserInfo.getOrganizationId()+'.com';
-jrh.CommunityNickname = 'Jean';
-jrh.LocaleSidKey = 'fr_FR_EURO';
-jrh.TimeZoneSidKey = 'Europe/Paris';
-jrh.ProfileID = p.id;
-jrh.LanguageLocaleKey = 'fr';
-jrh.EmailEncodingKey = 'ISO-8859-1';
-insert jrh;
+User jHR = new user();
+jHR.firstName = 'John';
+jHR.LastName = 'HR';
+jHR.Email = 'jHR@platform.day';
+jHR.Alias = 'John';
+jHR.Username = 'John@'+UserInfo.getOrganizationId()+'.com';
+jHR.CommunityNickname = 'John';
+jHR.LocaleSidKey = 'fr_FR_EURO';
+jHR.TimeZoneSidKey = 'Europe/Paris';
+jHR.ProfileID = p.id;
+jHR.LanguageLocaleKey = 'en';
+jHR.EmailEncodingKey = 'ISO-8859-1';
+insert jHR;
 
 list<applicant__c> aps=[SELECT HR_Contact__c,id from applicant__c];
 for (applicant__c a:aps){
-	a.HR_Contact__c=jrh.id;
+	a.HR_Contact__c=jHR.id;
 }
 update aps;
 

@@ -7,7 +7,7 @@
             },
             "email__c": "jdupuis@fakemail.com",
             "Job_Requisition__c": "@Job_Requisition__cRef1",
-            "Name__c": "Jean Dupuis",
+            "Name__c": "John Dupuis",
             "Status__c": "Hired"
         },
         {
@@ -29,7 +29,7 @@
             "email__c": "jdurand@fakemail.com",
             "Job_Requisition__c": "@Job_Requisition__cRef4",
             "Mobile_Phone__c": "0687654321",
-            "Name__c": "Julie Durand",
+            "Name__c": "Jane Durand",
             "Status__c": "Schedule Interview"
         },
         {
@@ -40,7 +40,7 @@
             "email__c": "dupont@fakemail.com",
             "Job_Requisition__c": "@Job_Requisition__cRef4",
             "Mobile_Phone__c": "0687654321",
-            "Name__c": "Jean dupont",
+            "Name__c": "John dupont",
             "Status__c": "New"
         },
         {
@@ -50,7 +50,7 @@
             },
             "email__c": "jdubois@fakemail.com",
             "Job_Requisition__c": "@Job_Requisition__cRef4",
-            "Name__c": "Jaqueline Dubois",
+            "Name__c": "Jackie Dubois",
             "Status__c": "Schedule Interview"
         },
         {
@@ -61,7 +61,7 @@
             "email__c": "pdupont@fakemail.com",
             "Job_Requisition__c": "@Job_Requisition__cRef5",
             "Mobile_Phone__c": "0607080905",
-            "Name__c": "Pierre Dupont",
+            "Name__c": "Peter Dupont",
             "Status__c": "New"
         },
         {

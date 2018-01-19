@@ -1,8 +1,0 @@
-{
-    "TimeZoneSidKey": "Europe/Paris",
-    "LocaleSidKey": "fr_FR_EURO",
-    "EmailEncodingKey": "ISO-8859-1",
-    "LanguageLocaleKey": "fr",
-    "permsets": ["Gestion_des_embauches"],
-    "profileName":"Company Communities User"
-}

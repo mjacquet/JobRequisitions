@@ -1,5 +1,5 @@
 {
-	"title": "Etape 3: Import des données",
-	"body": "Nous avons créé un modèle de donnée pour notre app.<br>C'est quand même mieux de tester avec un peu plus de données!<br>Voici la donnée que l'on va charger, au format JSON <a href=\"https://github.com/mjacquet/gestion-embauche/tree/step2/data\" target=\"_blank\">ici</a>.",
-	"button": "Charger la donnée"
+	"title": "Step 3: Data Import",
+	"body": "We created a data model for our app. <br> It's still better to test with a little more data! <br> Have a look at the data we will load, in JSON format <a href=\"https://github.com/mjacquet/management-embauche/tree/step2/data\" target=\"_blank\"> here </a>.",
+	"button": "Load Data"
 }

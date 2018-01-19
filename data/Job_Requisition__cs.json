@@ -5,8 +5,8 @@
                 "type": "Job_Requisition__c",
                 "referenceId": "Job_Requisition__cRef1"
             },
-            "location__c": "Rennes",
-            "Name": "Responsable RH Rennes",
+            "location__c": "London",
+            "Name": "HR Manager London",
             "Open_Date__c": "2017-12-20",
             "Status__c": "Closed",
             "Travel_Required__c": false
@@ -16,8 +16,8 @@
                 "type": "Job_Requisition__c",
                 "referenceId": "Job_Requisition__cRef2"
             },
-            "location__c": "Nantes",
-            "Name": "Conseiller Centre de Contact Junior",
+            "location__c": "Paris",
+            "Name": "Contact Center representative",
             "Open_Date__c": "2018-02-28",
             "Status__c": "Needs Approval",
             "Travel_Required__c": false
@@ -27,8 +27,8 @@
                 "type": "Job_Requisition__c",
                 "referenceId": "Job_Requisition__cRef3"
             },
-            "location__c": "Nantes",
-            "Name": "Conseiller Centre de Contact Senior",
+            "location__c": "Dublin",
+            "Name": "Senior Custopmer Care Agent",
             "Open_Date__c": "2018-02-28",
             "Status__c": "Open",
             "Travel_Required__c": false
@@ -38,8 +38,8 @@
                 "type": "Job_Requisition__c",
                 "referenceId": "Job_Requisition__cRef4"
             },
-            "location__c": "Montpellier",
-            "Name": "Responsable RH Montpellier",
+            "location__c": "Amsterdam",
+            "Name": "HR Manager Amsterdam",
             "Open_Date__c": "2018-01-31",
             "Status__c": "Open - approved",
             "Travel_Required__c": false
@@ -49,8 +49,8 @@
                 "type": "Job_Requisition__c",
                 "referenceId": "Job_Requisition__cRef5"
             },
-            "location__c": "Nantes",
-            "Name": "Agent commercial Grand Ouest",
+            "location__c": "Milan",
+            "Name": "Account Executive",
             "Open_Date__c": "2018-02-28",
             "Status__c": "Open",
             "Travel_Required__c": true
