@@ -53,7 +53,6 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ReadWrite</externalSharingModel>
-    <gender>Masculine</gender>
     <label>Job Requisition</label>
     <nameField>
         <label>Job Requisition Name</label>
