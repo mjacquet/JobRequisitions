@@ -42,7 +42,7 @@
     <enableFeeds>true</enableFeeds>
     <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
-    <externalDataSource>RH</externalDataSource>
+    <externalDataSource>HR</externalDataSource>
     <externalName>public$Jobs_en</externalName>
     <label>Job Master</label>
     <pluralLabel>Jobs Master</pluralLabel>
