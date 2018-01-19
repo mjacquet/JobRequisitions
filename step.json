@@ -1,3 +1,3 @@
-{"title":"Etape 9: Développement",
-"body":"Et maintenant, après tout ce travail déclaratif, je sens que vous mourrez d'envie de faire un peu de code :)<br>Nous allons créer un composant lightning et créer un apel WebService en Apex. <br>Métadonnée visible <a href=\"https://github.com/mjacquet/gestion-embauche/tree/step8\" target=\"_blank\">ici</a>",
-"button":"Pousser le code"}
+{"title":"Step 9: Custom Dev",
+"body":"And now, after all this declarative work, I feel that you are dying to do some code :) <br> We are going to create a lightning component and call a WebService in Apex. <br> Metadata <a href=\"https://github.com/mjacquet/jobrequisitions/tree/step8\" target=\"_blank\"> here </a>",
+"button":"Push Code"}
